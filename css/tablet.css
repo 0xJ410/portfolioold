@@ -1,0 +1,196 @@
+@media (min-width: 500px) and (max-width: 991px) {
+
+    #navbar {
+        padding: 20px 10%;
+    }
+
+    .navbar-text {
+        font-size: 2.5vw;
+    }
+
+    .navbar-links a {
+        font-size: 2.5vw;
+
+    }
+
+
+    #userIcon {
+        border: none;
+        height: 25px;
+        width: 25px;
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      #Icon {
+        border: none;
+        height: 35px;
+        width: 35px;
+        vertical-align: middle;
+      }
+      
+      #biggerIcon {
+        border: none;
+        height: 30px;
+        width: 30px;
+        vertical-align: middle;
+      }
+      
+      #smallerIcon {
+        border: none;
+        height: auto;
+        width: 25px;
+        vertical-align: middle;
+      }
+      
+      #smallestIcon {
+        border: none;
+        height: auto;
+        width: 15px;
+        vertical-align: middle;
+      }
+
+
+        
+    
+    
+    .me {
+        margin: 100px 0 80px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .me img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .meText h1 {
+        font-size: 5vw;
+    }
+
+    .meText h2 {
+        font-size: 2.5vw;
+    }
+
+    .linkCv {
+        margin: 50px 0 80px 0;
+    }
+
+    .linkCv a {
+        font-size: 2.5vw;
+    }
+   
+
+
+    .about {
+        margin: 50px 10%;
+    }
+    .about h3 {
+        font-size: 3vw;
+    }
+
+    .about p {
+        font-size: 2vw;
+    }
+
+
+
+    .skillsPage {
+        margin: 100px 5% 10px 5%;
+    }
+
+    .skillsPage h3 {
+        margin: 10px 50px;
+        font-size: 3vw;
+    }
+
+    .skillsTab {
+        /* border: white solid 1px; */
+        margin: 10px 5%;
+    }
+
+    .skillsTitle {
+        font-size: 3vw;
+    }
+
+    .skillsBox img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .skillsBox p {
+        font-size: 1.8vw;
+    }
+
+
+
+
+    .projPage {
+        margin: 50px 1% 10px 1%;
+    }
+
+    .projLayout {
+        /* border: white solid 1px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .projPage h3 {
+        margin: 10px 5% 0 5%;
+        font-size: 3vw;
+    }
+
+    .projTab {
+        /* border: white solid 1px; */
+        margin: 10px 0%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 2%;
+
+    }
+
+
+
+    .projTitle img {
+        max-width: 100%;
+    }
+
+    .projTitle h5 {
+        font-size: 2.5vw;
+    }
+    
+    .projTitle p {
+        font-size: 2vw;
+    }
+
+    .projLinks a {
+        font-size: 2vw;
+        flex-wrap: wrap;
+        display: inline-block;
+
+    }
+
+    
+    .fifthPage {
+        margin: 50px 20px 20px;
+    }
+
+    .fifthPage p {
+        margin: 20px;
+        font-size: 2vw;
+    }
+
+
+
+
+
+}

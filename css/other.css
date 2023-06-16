@@ -1,0 +1,67 @@
+html::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: courierPrimeRegular;
+  src: url('/fonts/CourierPrimeRegular.ttf');
+}
+
+@font-face {
+  font-family: courierPrimeItalic;
+  src: url('/fonts/CourierPrimeItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'courierPrimeBold';
+  src: url('/fonts/CourierPrimeBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: courierPrimeBoldItalic;
+  src: url('/fonts/CourierPrimeBoldItalic.ttf') format('truetype');
+}
+
+
+span {
+  color: #9EA46B;
+}
+
+img {
+  pointer-events: none;
+}
+
+
+body {
+  -webkit-tap-highlight-color: transparent;
+
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+
+
+}
+
+
+.navLinks-right {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.section {
+  height: 800px;
+  padding-top: 50px;
+}
+
+.hidden {
+  top: -60px;
+}
+
+.visible {
+  top: 0;
+}
+
