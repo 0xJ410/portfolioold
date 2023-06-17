@@ -22,6 +22,10 @@ html::-webkit-scrollbar {
   src: url('/fonts/CourierPrimeBoldItalic.ttf') format('truetype');
 }
 
+:root {
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease;
+}
 
 span {
   color: #9EA46B;

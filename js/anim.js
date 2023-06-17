@@ -17,3 +17,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
     });
   });
+
+
+function animateAndNavigate(element) {
+    element.classList.add('animate');
+    setTimeout(function() {
+      window.location.href = element.getAttribute('href');
+    }, 500); // Adjust the delay time (in milliseconds) as needed
+  }

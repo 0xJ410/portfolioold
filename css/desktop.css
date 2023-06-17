@@ -70,7 +70,8 @@
     }
 
     .me img {
-        max-width: 100%;
+        width: auto;
+        max-width: 225px;
         height: auto;
     }
 

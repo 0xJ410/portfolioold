@@ -1,0 +1,30 @@
+    .navbar-text:hover {
+        letter-spacing: 5px;
+        transition: var(--transition-duration);
+    }
+    
+    .navbar-links a:hover {
+        color: #9EA46B;
+        letter-spacing: 1px;
+        transition: var(--transition-duration);
+    }
+    
+    
+    
+    .divCv:hover  {
+        border-radius: 5px;
+        background: #272822;
+        box-shadow:  9px 9px 18px #21221d,
+                     -9px -9px 18px #2d2e27;
+        transition: var(--transition-duration);
+    }
+
+
+    .projTab:hover {
+        background-color: #32342c;
+        /* transition: var(--transition-duration); */
+    }
+
+    .projLinks a:hover{
+        transform: scale(1.1);
+    }
