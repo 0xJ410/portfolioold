@@ -11,6 +11,8 @@
     <link href="css/tablet.css" rel="stylesheet" type="text/css" />
     <link href="css/other.css" rel="stylesheet" type="text/css" />
     <link href="css/anim.css" rel="stylesheet" type="text/css" />
+    <link href="css/hover.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 
@@ -24,8 +26,8 @@
       <h1>/<span>jlc</span></h1>
     </div>
     <div class="navbar-links">
-      <a href="#">/contact</a>
-      <a href="#">/aboutMe</a>
+      <a href="#" onclick="event.preventDefault(); animateAndNavigate(this)">/contact</a>
+      <a href="#me" onclick="event.preventDefault(); animateAndNavigate(this)">/aboutMe</a>
     </div>
   </nav>
 
@@ -34,13 +36,13 @@
           <img src="img/kaneki.png">
           <div class="meText">
             <h1><span>JHON LUKE CUTAY</span> <img id="smallestIcon" src="img/icons/dot.png"></h1>
-            <h2>/juniorDev</h2>
+            <h2>/aspiringDev</h2>
 
           </div>
          
         </div>
         <div class="linkCv">
-        <a href="" target="_blank"><img id="smallerIcon" src="img/icons/user.png"> <span>/downloadCVHere</a></span>
+        <a class="divCv" href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)"><img id="smallerIcon" src="img/icons/user.png"> <span>/downloadCVHere</a></span>
         </div>
     </section>
 
@@ -132,6 +134,11 @@
               <p>vsCode</p>
             </div>
 
+            <div class="skillsBox">
+              <img src="img/icons/vercel.png">
+              <p>vercel</p>
+            </div>
+
           </section>
 
 
@@ -164,15 +171,15 @@
             </div>
 
             <div class="projLinks">
-              <a href="" target="_blank">
+              <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
                 <img id="biggerIcon" src="img/icons/github.png">
                 <span>github</span>
               </a>
-              <a href="" target="_blank">
+              <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
                 <img id="biggerIcon" src="img/icons/live.png">
                 <span>live</span>
               </a>
-              <a href="" target="_blank">
+              <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
                 <img id="biggerIcon" src="img/icons/sourceCode.png">
                 <span>code</span>
               </a>
@@ -191,15 +198,15 @@
           </div>
 
           <div class="projLinks">
-            <a href="" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/github.png">
               <span>github</span>
             </a>
-            <a href="" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/live.png">
               <span>live</span>
             </a>
-            <a href="" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/sourceCode.png">
               <span>code</span>
             </a>
@@ -218,15 +225,15 @@
         </div>
 
         <div class="projLinks">
-          <a href="" target="_blank">
+          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
             <img id="biggerIcon" src="img/icons/github.png">
             <span>github</span>
           </a>
-          <a href="" target="_blank">
+          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
             <img id="biggerIcon" src="img/icons/live.png">
             <span>live</span>
           </a>
-          <a href="" target="_blank">
+          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
             <img id="biggerIcon" src="img/icons/sourceCode.png">
             <span>code</span>
           </a>
@@ -245,15 +252,15 @@
           </div>
 
           <div class="projLinks">
-            <a href="https://github.com/jhonlukecutay/jlcPort.github.io" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/github.png">
               <span>github</span>
             </a>
-            <a href="https://jhonlukecutayoldportfolio.vercel.app/" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/live.png">
               <span>live</span>
             </a>
-            <a href="" target="_blank">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
               <img id="biggerIcon" src="img/icons/sourceCode.png">
               <span>code</span>
             </a>
