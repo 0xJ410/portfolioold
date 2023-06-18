@@ -12,13 +12,20 @@
     <link href="css/other.css" rel="stylesheet" type="text/css" />
     <link href="css/anim.css" rel="stylesheet" type="text/css" />
     <link href="css/hover.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 
 <body oncontextmenu="return false;">
 
   <div id="me"></div>
+
+
 
 
   <nav class="navbar" id="navbar">
@@ -32,14 +39,14 @@
   </nav>
 
     <section class="firstPage">
+
         <div class="me">
           <img src="img/kaneki.png">
-          <div class="meText">
-            <h1><span>JHON LUKE CUTAY</span> <img id="smallestIcon" src="img/icons/dot.png"></h1>
+          <div class="meText" >
+            <h1><span><span class="bigLetter">j</span>hon <span class="bigLetter">l</span>uke <span class="bigLetter">c</span>utay <img id="smallestIcon" src="img/icons/dot.png"></h1>
             <h2>/aspiringDev</h2>
 
           </div>
-         
         </div>
         <div class="linkCv">
         <a class="divCv" href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)"><img id="smallerIcon" src="img/icons/user.png"> <span>/downloadCVHere</a></span>
@@ -50,7 +57,7 @@
 
       <div class="about">
         <h3><span>.../me/about.txt</span></h3>
-        <p>based at puerto princesa city, palawan. second-year computer science student in fullbright college.</p> 
+        <p>I'm a second-year computer science student studying at Fullbright College, located in Puerto Princesa City, Palawan.</p> 
       </div>
 
     </section>
@@ -64,7 +71,7 @@
             <h4>.../<span>web development</span></h4>
           </div>  
 
-          <section class="skillsLayout">
+          <div class="skillsLayout">
             
             <div class="skillsBox">
               <img src="img/icons/html.png">
@@ -83,7 +90,7 @@
 
 
 
-          </section>
+          </div>
 
 
           
@@ -179,10 +186,6 @@
                 <img id="biggerIcon" src="img/icons/live.png">
                 <span>live</span>
               </a>
-              <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-                <img id="biggerIcon" src="img/icons/sourceCode.png">
-                <span>code</span>
-              </a>
             </div>
         </div>
 
@@ -206,10 +209,7 @@
               <img id="biggerIcon" src="img/icons/live.png">
               <span>live</span>
             </a>
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/sourceCode.png">
-              <span>code</span>
-            </a>
+
           </div>
         </div>
 
@@ -233,10 +233,7 @@
             <img id="biggerIcon" src="img/icons/live.png">
             <span>live</span>
           </a>
-          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-            <img id="biggerIcon" src="img/icons/sourceCode.png">
-            <span>code</span>
-          </a>
+
         </div>
         </div>
 
@@ -260,10 +257,7 @@
               <img id="biggerIcon" src="img/icons/live.png">
               <span>live</span>
             </a>
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/sourceCode.png">
-              <span>code</span>
-            </a>
+
           </div>
         </div>
 
@@ -292,5 +286,7 @@
 
 
     <script src="js/anim.js"></script>
+    <script src="js/intersectAPI.js"></script>
+
 </body>
 </html>

@@ -4,8 +4,8 @@
     }
     
     .navbar-links a:hover {
-        color: #9EA46B;
-        letter-spacing: 1px;
+        color: #ed6f3f;
+        transform: scale(1.1);
         transition: var(--transition-duration);
     }
     
@@ -13,15 +13,15 @@
     
     .divCv:hover  {
         border-radius: 5px;
-        background: #272822;
-        box-shadow:  9px 9px 18px #21221d,
-                     -9px -9px 18px #2d2e27;
+        background: #181716;
+        box-shadow:  13px 13px 21px #100f0e,
+                     -13px -13px 21px #201f1e;
         transition: var(--transition-duration);
     }
 
 
     .projTab:hover {
-        background-color: #32342c;
+        background-color: #32312e;
         /* transition: var(--transition-duration); */
     }
 

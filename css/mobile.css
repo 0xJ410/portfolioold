@@ -5,18 +5,20 @@
   }
 
 body {
-  background-color: #272822;
+  background-color: #181716;
   }
+
+
+  
 
 
   #navbar {
     padding: 20px;
 
-    background-color: #272822;
+    background-color: #181716;
     position: fixed;
-    top: -100px;
+    top: -1px;
     width: 100%;
-    transition: top 0.3s;
   }
 
 
@@ -25,29 +27,32 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #f2f2f2;
     padding: 10px;
-    color: white;
+    color: #ccc5b9;
   }
   
   /* Left side text */
   .navbar-text {
     font-weight: bold;
-    font-family: courierPrimeBold;
+    font-family: SCP-boldItalic;
 
     transition: var(--transition-duration);
+
+
   }
   
   /* Right side anchor tags */
   .navbar-links a {
     margin-left: 10px;
     text-decoration: none;
-    color: white;
+    color: #ccc5b9;
     font-size: 1rem;
 
-    font-family: courierPrimeItalic;
+    font-family: SCP-Italic;
 
     transition: var(--transition-duration);
+
+    animation: fadeIn 3s ease-in-out 0s normal both;
 
   }
 
@@ -109,22 +114,26 @@ body {
   }
 
   .me img {
-    border: #9EA46B solid 1px;
+    border: #ed6f3f solid 1px;
     border-radius: 100%;
     height: 180px;
     width: 180px;
   }
 
+
+
   .meText h1 {
-    font-size: 1.8rem;
-    font-family: courierPrimeBold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: SCP-Bold;
     letter-spacing: 2px;
-    padding: 10px 0 5px 0;
+    padding: 0px 0 5px 0;
+
   }
 
   .meText h2 {
-    font-size: 1.1rem;
-    font-family: courierPrimeItalic;
+    font-size: 1rem;
+    font-family: SCP-BoldItalic;
     letter-spacing: 1px;
   }
 
@@ -137,13 +146,14 @@ body {
   .linkCv a{
     padding: 12px;
     text-decoration: none;
-    font-family: courierPrimeRegular;
+    font-family: SCP-Regular;
+    font-size: 1rem;
 
     transition: var(--transition-duration);
   }
 
   .meText h1, .meText h2 {
-    color: white;
+    color: #ccc5b9;
   }
 
   .meText {
@@ -154,7 +164,6 @@ body {
 
 
   .about {
-    /* border: white solid 0.5px; */
     padding: 0px 20px 0px 20px;
     margin: 0px;
     text-align: right;
@@ -162,7 +171,7 @@ body {
 
   .about h3 {
     font-size: 1.3rem;
-    font-family: CourierPrimeBoldItalic;
+    font-family: SCP-Medium;
     letter-spacing: 2px;
   }
 
@@ -170,12 +179,12 @@ body {
     text-align: end;
     margin: 5px;
     font-size: 1rem;
-    font-family: courierPrimeRegular;
+    font-family: SCP-Italic;
     letter-spacing: 1px;
   }
 
   .about h3, .about p {
-    color: white;
+    color: #ccc5b9;
   }
 
 
@@ -186,15 +195,15 @@ body {
 
   .skillsPage h3 {
     margin: 0 0 20px 10px;
-    font-size: 1.4rem;
-    color: white;
+    font-size: 1.2rem;
+    color: #ccc5b9;
     
-    font-family: courierPrimeBoldItalic;
+    font-family: SCP-Medium;
     letter-spacing: 1px;
   }
 
   .skillsTab {
-    border: #9EA46B solid 1px;
+    border: #ed6f3f solid 1px;
     display: flex;
     flex-flow: column nowrap;
     margin: 10px 20px 10px 20px;
@@ -204,14 +213,13 @@ body {
 
   .skillsTitle {
     font-size: 1.1rem;
-    color: white;
+    color: #ccc5b9;
 
-    font-family: courierPrimeRegular;
+    font-family: SCP-BoldItalic;
     letter-spacing: 1px;
   }
 
   .skillsLayout {
-    /* border: #9EA46B solid 1px; */
 
     display: flex;
     flex-wrap: wrap;
@@ -232,10 +240,10 @@ body {
   }
 
   .skillsBox p {
-    color: white;
+    color: #ccc5b9;
     font-size: 14px;
 
-    font-family: courierPrimeBold;
+    font-family: SCP-Bold;
   }
 
   .projPage {
@@ -247,18 +255,23 @@ body {
   }
 
   .projPage h3 {
-    font-size: 1.4rem;
-    color: white;
+    font-size: 1.2rem;
+    color: #ccc5b9;
 
-    font-family: courierPrimeBoldItalic;
+    font-family: SCP-Medium;
     letter-spacing: 1px;
   }
 
   .projTab {
     margin: 20px 10px;
     padding: 10px;
+    justify-content: center;
+    
 
-    border: solid #9EA46B 1px;
+    /* width: 400px;
+    height: 300px; */
+
+    border: solid #ed6f3f 1px;
 
     transition: var(--transition-duration);
 
@@ -272,24 +285,24 @@ body {
 
 
   .projTitle img {
-    border: #9EA46B solid 1px;
+    border: #ed6f3f solid 1px;
     height: 150px;
     width: 280px;
   }
   
   .projTitle h5 {
-    color: white;
+    color: #ccc5b9;
     font-size: 1rem;
 
-    font-family: courierPrimeBoldItalic;
+    font-family: SCP-BoldItalic;
     letter-spacing: 1px;
   }
 
   .projTitle p {
-    color: white;
+    color: #ccc5b9;
     font-size: 0.8rem;
 
-    font-family: courierPrimeRegular;
+    font-family: SCP-Medium;
     letter-spacing: 1px;
   }
 
@@ -301,15 +314,15 @@ body {
   .projLinks {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 16px;
   }
 
   .projLinks a {
     text-decoration: none;
-    color: white;
+    color: #ccc5b9;
 
-    font-family: courierPrimeBold;
+    font-family: SCP-Bold;
     letter-spacing: 1px;
     font-size: 0.8rem;
 
@@ -321,7 +334,7 @@ body {
   .fifthPage {
     margin: 50px 10px 20px;
 
-    border-top: white solid 1px;
+    border-top: #ed6f3f solid 1px;
   }
 
   .qouteText {
@@ -330,11 +343,11 @@ body {
 
   .fifthPage p {
     margin: 10px;
-    color: white;
+    color: #ccc5b9;
     text-align: center;
     font-size: 0.8rem;
 
-    font-family: courierPrimeRegular;
+    font-family: SCP-Regular;
     letter-spacing: 1px;
   }
 

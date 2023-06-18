@@ -2,25 +2,6 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-@font-face {
-  font-family: courierPrimeRegular;
-  src: url('/fonts/CourierPrimeRegular.ttf');
-}
-
-@font-face {
-  font-family: courierPrimeItalic;
-  src: url('/fonts/CourierPrimeItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'courierPrimeBold';
-  src: url('/fonts/CourierPrimeBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: courierPrimeBoldItalic;
-  src: url('/fonts/CourierPrimeBoldItalic.ttf') format('truetype');
-}
 
 :root {
   --transition-duration: 0.3s;
@@ -28,7 +9,8 @@ html::-webkit-scrollbar {
 }
 
 span {
-  color: #9EA46B;
+
+  color: #ed6f3f;
 }
 
 img {
@@ -67,5 +49,9 @@ body {
 
 .visible {
   top: 0;
+}
+
+.bigLetter {
+  font-size: 1.5em;
 }
 
