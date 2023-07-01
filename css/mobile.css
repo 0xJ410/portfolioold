@@ -137,6 +137,14 @@ body {
     letter-spacing: 1px;
   }
 
+  .meText p {
+    text-align: start;
+    margin: 5px;
+    font-size: 0.8rem;
+    font-family: SCP-Italic;
+    letter-spacing: 1px;
+  }
+
   .linkCv {
     margin: 20px auto 80px auto;
     display: block;
@@ -152,7 +160,7 @@ body {
     transition: var(--transition-duration);
   }
 
-  .meText h1, .meText h2 {
+  .meText h1, .meText h2, .meText p {
     color: #ccc5b9;
   }
 
