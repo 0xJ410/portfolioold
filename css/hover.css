@@ -9,22 +9,19 @@
         transition: var(--transition-duration);
     }
     
-    
-    
-    .divCv:hover  {
-        border-radius: 5px;
-        background: #181716;
-        box-shadow:  13px 13px 21px #100f0e,
-                     -13px -13px 21px #201f1e;
-        transition: var(--transition-duration);
-    }
 
 
     .projTab:hover {
         background-color: #32312e;
+        transform: scale(1.1);
         /* transition: var(--transition-duration); */
     }
 
     .projLinks a:hover{
         transform: scale(1.1);
+    }
+
+    .divCv:hover {
+        letter-spacing: 5px;
+        transition: 0.5s;
     }

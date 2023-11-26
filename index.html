@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jhonlukecutay/portfolio</title>
+    <title>>jlcportfolio</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
 
     <link href="css/mobile.css" rel="stylesheet" type="text/css" />
     <link href="css/desktop.css" rel="stylesheet" type="text/css" />
-    <link href="css/tablet.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/tablet.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/other.css" rel="stylesheet" type="text/css" />
     <link href="css/anim.css" rel="stylesheet" type="text/css" />
     <link href="css/hover.css" rel="stylesheet" type="text/css" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/svgdivider.css" rel="stylesheet" type="text/css" />
+
 
     <link
     rel="stylesheet"
@@ -21,56 +23,87 @@
 
 </head>
 
-<body oncontextmenu="return false;">
+<body oncontextmenu="return true;">
 
-  <div id="me"></div>
-
-
-
-
-  <nav class="navbar" id="navbar">
+  <!-- <nav class="navbar" id="navbar">
     <div class="navbar-text">
-      <h1>/<span>jlc</span></h1>
+      <h1><span class="color2F">></span>jlc</h1>
     </div>
     <div class="navbar-links">
-      <a href="#" onclick="event.preventDefault(); animateAndNavigate(this)">/contact</a>
-      <a href="#me" onclick="event.preventDefault(); animateAndNavigate(this)">/aboutMe</a>
+      <a href="#" onclick="event.preventDefault(); animateAndNavigate(this)"><span class="color2F">></span>contact</a>
+      <a href="#me" onclick="event.preventDefault(); animateAndNavigate(this)"><span class="color2F">></span>aboutMe</a>
     </div>
-  </nav>
+  </nav> -->
 
     <section class="firstPage">
 
+      <div class="custom-shape-divider-top-1700995111">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
         <div class="me">
+          
           <img src="img/kaneki.png">
-          <div class="meText" >
-            <h1><span><span class="bigLetter">j</span>hon <span class="bigLetter">l</span>uke <span class="bigLetter">c</span>utay <img id="smallestIcon" src="img/icons/dot.png"></h1>
-            <h2>/aspiringDev</h2>
-            <div>
+          
+          <div class="meText wFont" >
+
+            <h1><span class="bigLetter color2F">j</span>hon <span class="bigLetter color2F">l</span>uke <span class="bigLetter color2F">c</span>utay <img id="smallestIcon" src="img/icons/dot.png"></h1>
+            <h2><span class="color2F">></span>Seki</h2>
+            <h2><span class="color2F">/</span>aspiringDev</h2>
+
+            <div class="linksSocial">
+
+              <a class="linkSoc" target="_blank" href="https://www.facebook.com/jhonlukequibeccutay">
+                <img id="icoSize" class="linkSvg" src="/img/socialIco/facebook.svg" alt="Facebook" />
+              </a>
+
+              <a class="linkSoc" target="_blank" href="https://www.instagram.com/jhonlukecutay/">
+                <img id="icoSize" class="linkSvg" src="/img/socialIco/instagram.svg" alt="Instagram" />
+              </a>
+
+              <a class="linkSoc" target="_blank" href="https://github.com/jhonlukecutay">
+                <img id="icoSize" class="linkSvg" src="/img/socialIco/github.svg" alt="GitHub" />
+              </a>
+
+              <a class="linkSoc" target="_blank" href="mailto:jhonlukequibeccutay@gmail.com">
+                <img id="icoSize" class="linkSvg" src="/img/socialIco/gmail.svg" alt="Google Mail" />
+              </a>
+
+
             </div>
 
+
           </div>
+
         </div>
-        <div class="linkCv">
-        <a class="divCv" href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)"><img id="smallerIcon" src="img/icons/user.png"> <span>/downloadCVHere</a></span>
+
+
+    </section>
+
+    <section>
+
+      <div class="bridgePage">
+
+        <div class="introMe wFont">
+
+          <h6><span class="color2F">></span>aboutMe</h6>
+          <p>currently a third year college computer science student at Fullbright College located in Puerto Princesa City, Palawan.</p>
+
         </div>
+      </div>
+        
+
     </section>
 
     <section class="secondPage">
-
-      <div class="about">
-        <h3><span>.../me/about.txt</span></h3>
-        <p>I'm a third-year computer science student studying at Fullbright College, located in Puerto Princesa City, Palawan.</p> 
-      </div>
-
-    </section>
-
-    <section class="thirdPage">
-      <div class="skillsPage">
-        <h3><img id="Icon" src="img/icons/user.png"> /<span>skills</span>/...</h3>
+      <div class="skillsPage wFont">
+        <h3><span class="color2F">></span>skills</h3>
         <div class="skillsTab">
 
           <div class="skillsTitle">
-            <h4>.../<span>web development</span></h4>
+            <h4><span class="color2F">></span>web development</h4>
           </div>  
 
           <div class="skillsLayout">
@@ -87,7 +120,7 @@
 
             <div class="skillsBox">
               <img src="img/icons/js.png">
-              <p>javascript</p>
+              <p>jscript</p>
             </div>
 
 
@@ -101,7 +134,7 @@
         <div class="skillsTab">
 
           <div class="skillsTitle">
-            <h4>.../<span>application</span></h4>
+            <h4><span class="color2F">></span>application</h4>
           </div>  
 
           <section class="skillsLayout">
@@ -129,7 +162,7 @@
         <div class="skillsTab">
 
           <div class="skillsTitle">
-            <h4>.../<span>other</span></h4>
+            <h4><span class="color2F">></span>other</h4>
           </div>  
 
           <section class="skillsLayout">
@@ -158,128 +191,169 @@
 
     </section>
     
-    <section class="fourthPage">
+    <section class="thirdPage">
 
-      <div id="fourthPage"></div>
+      <div class="projPage wFont">
 
-      <div class="projPage">
-
-        <h3><img id="Icon" src="img/icons/user.png"> /<span>projects</span>/...</h3>
+        <h3><span class="color2F">></span>projects</h3>
         <div class="projLayout">
 
 
-        <div class="projTab">
+          <div class="projTab">
+
+              <div class="projTitle">
+                <img src="img/proj/vbguide.png">
+                <div class="projText">
+                  <h5><span class="color2F">></span>vbGuide</h5>
+                <p>created in 2021</p>
+                <p><span class="color2F"">completed</span></p>
+                </div>
+
+              </div>
+
+              <div class="projLinks">
+                <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+                  <img id="pngIcon" src="img/icons/github.png">
+                  <span class="color2F">github</span>
+                </a>
+                <!-- <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+                  <img id="pngIcon" src="img/icons/live.png">
+                  <span>not available</span>
+                </a> -->
+              </div>
+          </div>
+
+          <div class="projTab">
 
             <div class="projTitle">
-              <img src="img/proj/vbguide.png">
+              <img src="img/proj/proj2.png">
               <div class="projText">
-                <h5><img id="Icon" src="img/icons/folder.png">.../<span>vbGuide</span></h5>
-              <p>created in 2021 </p>              
+              <h5><span class="color2F">></span>loginSystemPHP</h5>
+              <p> created in 2022</p>    
+              <p><span class="color2F"">completed</span></p>
+
               </div>
 
             </div>
 
             <div class="projLinks">
               <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-                <img id="biggerIcon" src="img/icons/github.png">
-                <span>github</span>
+                <img id="pngIcon" src="img/icons/github.png">
+                <span class="color2F">github</span>
               </a>
+              <!-- <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+                <img id="pngIcon" src="img/icons/live.png">
+                <span>not available</span>
+              </a> -->
+
+            </div>
+          </div>
+
+          <div class="projTab">
+
+          <div class="projTitle">
+            <img src="img/proj/fbcsys.png">
+            <div class="projText">
+            <h5><span class="color2F">></span>fbcIntramsBlog</h5>
+            <p> created in 2023 </p>
+            <p><span class="color2F"">completed</span></p>
+            </div>
+
+          </div>
+
+          <div class="projLinks">
+            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+              <img id="pngIcon" src="img/icons/github.png">
+              <span class="color2F">github</span>
+            </a>
+            <!-- <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+              <img id="pngIcon" src="img/icons/live.png">
+              <span>not available</span>
+            </a> -->
+
+          </div>
+          </div>
+
+          <div class="projTab">
+
+            <div class="projTitle">
+              <img src="img/proj/oldPortfolio.png">
+              <div class="projText">
+              <h5><span class="color2F">></span>oldPortfolio</h5>
+              <p> created in 2023 </p>
+              <p><span class="color2F"">discontinued</span></p>
+              </div>
+
+            </div>
+
+            <div class="projLinks">
               <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-                <img id="biggerIcon" src="img/icons/live.png">
-                <span>live</span>
+                <img id="pngIcon" src="img/icons/github.png">
+                <span class="color2F">github</span>
               </a>
+              <!-- <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
+                <img id="pngIcon" src="img/icons/live.png">
+                <span>not available</span>
+              </a> -->
+
             </div>
-        </div>
-
-        <div class="projTab">
-
-          <div class="projTitle">
-            <img src="img/proj/proj2.png">
-            <div class="projText">
-            <h5><img id="Icon" src="img/icons/folder.png">.../<span>loginSystemPHP</span></h5>
-            <p> created in 2022</p>              
-            </div>
-
           </div>
 
-          <div class="projLinks">
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/github.png">
-              <span>github</span>
-            </a>
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/live.png">
-              <span>live</span>
-            </a>
+          <div class="projTab">
 
-          </div>
-        </div>
+            <div class="projTitle">
+              <img src="img/proj/makeWinFast.PNG">
+              <div class="projText">
+              <h5><span class="color2F">></span>makeWinFast</h5>
+              <p> created in 2023 </p> 
+              <p><span class="color2F"">new release!</span></p>
+              </div>
 
-        <div class="projTab">
-
-        <div class="projTitle">
-          <img src="img/proj/fbcsys.png">
-          <div class="projText">
-          <h5><img id="Icon" src="img/icons/folder.png">.../<span>fbcIntramsBlog</span></h5>
-          <p> created in 2023 </p>            
-          </div>
-
-        </div>
-
-        <div class="projLinks">
-          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-            <img id="biggerIcon" src="img/icons/github.png">
-            <span>github</span>
-          </a>
-          <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-            <img id="biggerIcon" src="img/icons/live.png">
-            <span>live</span>
-          </a>
-
-        </div>
-        </div>
-
-        <div class="projTab">
-
-          <div class="projTitle">
-            <img src="img/proj/oldPortfolio.png">
-            <div class="projText">
-            <h5><img id="Icon" src="img/icons/folder.png">.../<span>oldPortfolio</span></h5>
-            <p> created in 2023 </p>              
             </div>
 
+            <div class="projLinks">
+              <a href="https://github.com/jhonlukecutay/makeWinFast" onclick='window.open("https://github.com/jhonlukecutay/makeWinFast");return false;' onclick="event.preventDefault(); animateAndNavigate(this)">
+                <img id="pngIcon" src="img/icons/github.png">
+                <span class="color2F">github</span>
+              </a>
+              <a href="https://jlc-makewinfast.vercel.app/" onclick='window.open("https://jlc-makewinfast.vercel.app/");return false;' onclick="event.preventDefault(); animateAndNavigate(this)">
+                <img id="pngIcon" src="img/icons/live.png">
+                <span class="color2F">live</span>
+              </a>
+
+            </div>
           </div>
-
-          <div class="projLinks">
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/github.png">
-              <span>github</span>
-            </a>
-            <a href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)">
-              <img id="biggerIcon" src="img/icons/live.png">
-              <span>live</span>
-            </a>
-
-          </div>
-        </div>
+        
 
 
         </div>
-
-
-
 
 
       </div>
 
     </section>
 
-    <section class="fifthPage">
+    <section>
+      <div class="secBridgePage">
 
-      <div class="lastPage">
+        <div class="linkText wFont">
+          You can check my CV Here!
+        </div>
+
+        <div class="linkCv">
+          <a class="divCv" href="" target="_blank" onclick="event.preventDefault(); animateAndNavigate(this)"><img id="pngIcon" src="img/icons/user.png"><span class="color2F">CVHere</span></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="fourthPage">
+
+      <div class="lastPage wFont">
         <p class="qouteText">"Simple, yet, detailed. Nothing revealed, yet, everything shown."</p>
         
-        <p>This portfolio was made by <span>@jhonlukecutay</span></p>
+        <p>This portfolio was made by <span class="color2F">@jhonlukecutay</span></p>
       </div>
 
     </section>

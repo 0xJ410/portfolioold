@@ -1,205 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-body {
-  background-color: #181716;
-  }
-
-
-  
-
-
-  #navbar {
-    padding: 20px;
-
-    background-color: #181716;
-    position: fixed;
-    top: -1px;
-    width: 100%;
-  }
-
-
-
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    color: #ccc5b9;
-  }
-  
-  /* Left side text */
-  .navbar-text {
-    font-weight: bold;
-    font-family: SCP-boldItalic;
-
-    transition: var(--transition-duration);
-
-
-  }
-  
-  /* Right side anchor tags */
-  .navbar-links a {
-    margin-left: 10px;
-    text-decoration: none;
-    color: #ccc5b9;
-    font-size: 1rem;
-
-    font-family: SCP-Italic;
-
-    transition: var(--transition-duration);
-
-    animation: fadeIn 3s ease-in-out 0s normal both;
-
-  }
-
-  #userIcon {
-  border: none;
-  height: 25px;
-  width: 25px;
-  vertical-align: middle;
-}
-
-#Icon {
-  border: none;
-  height: 20px;
-  width: 20px;
-  vertical-align: middle;
-}
-
-#biggerIcon {
-  border: none;
-  height: 30px;
-  width: 30px;
-  vertical-align: middle;
-}
-
-#smallerIcon {
-  border: none;
-  height: 15px;
-  width: 15px;
-  vertical-align: middle;
-}
-
-#smallestIcon {
-  border: none;
-  height: 10px;
-  width: 10px;
-  vertical-align: middle;
-}
-
-
-
-
-
-
-
-  #me {
-    padding: 0 0 1px 0;
-  }
-
-
+/* FIRSTPAGE */
   .me {
     display: flex;
-    flex-direction: column;
-    margin: 100px 10px 0px 10px;
-    padding: 10px 0;
-    align-items: center;
-    gap: 5px;
-
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 18vh 5vw 0 5vw;
+    padding: 0 0 10vh 0;
+    gap: 1rem;
   }
 
   .me img {
     border: #ed6f3f solid 1px;
-    border-radius: 100%;
-    height: 180px;
-    width: 180px;
+    border-radius: 5%;
+    height: auto;
+    width: clamp(180px, 25%, 25%);
+    max-width: 100%;
   }
-
-
-
+  
   .meText h1 {
-    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 3.5vw, 3.5rem);
     text-transform: uppercase;
     font-family: SCP-Bold;
     letter-spacing: 2px;
-    padding: 0px 0 5px 0;
-
+    padding: 2vh 0 0 0;
   }
 
   .meText h2 {
-    font-size: 1rem;
-    font-family: SCP-BoldItalic;
+    font-size: clamp(1rem, 1.4vw, 2rem);
+    font-family: SCP-Light;
+    font-style: italic;
     letter-spacing: 1px;
+    padding: 1vh 0 0 0;
   }
 
-
-  .linkCv {
-    margin: 20px auto 80px auto;
-    display: block;
-    text-align: center;
+  .linksSocial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .linkCv a{
-    padding: 12px;
-    text-decoration: none;
-    font-family: SCP-Regular;
-    font-size: 1rem;
+/* BRIDGEPAGE */
 
-    transition: var(--transition-duration);
-  }
+.introMe {
+  padding: 5vh 5vw;
+}
 
-  .meText h1, .meText h2, .meText p {
-    color: #ccc5b9;
-  }
+.introMe h6 {
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  letter-spacing: 1px;
+}
 
-  .meText {
-    padding: 10px 0;
-    text-align: left;
-  }
+.introMe p {
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-style: italic;
+}
 
+.introMe h6, p {
+  padding: 0vh 5vw 2vh 5vw;
+  font-family: SCP-regular;
+  text-align: right;
+}
 
-
-  .about {
-    padding: 0px 20px 0px 20px;
-    margin: 0px;
-    text-align: right;
-  }
-
-  .about h3 {
-    font-size: 1.3rem;
-    font-family: SCP-Medium;
-    letter-spacing: 2px;
-  }
-
-  .about p {
-    text-align: end;
-    margin: 5px;
-    font-size: 1rem;
-    font-family: SCP-Italic;
-    letter-spacing: 1px;
-  }
-
-  .about h3, .about p {
-    color: #ccc5b9;
-  }
-
-
-  .skillsPage {
-    margin: 100px 0 10px 0;
-
-  }
-
+/* SECONDPAGE */
+.skillsPage {
+  padding: 4vh 0;
+}
   .skillsPage h3 {
-    margin: 0 0 20px 10px;
-    font-size: 1.2rem;
-    color: #ccc5b9;
-    
-    font-family: SCP-Medium;
+    padding: 0vh 3vw 3vh 3vw;
+    font-size: clamp(1.4rem, 1.6vw, 2rem);
+    font-family: SCP-bold;
     letter-spacing: 1px;
   }
 
@@ -207,74 +75,68 @@ body {
     border: #ed6f3f solid 1px;
     display: flex;
     flex-flow: column nowrap;
-    margin: 10px 20px 10px 20px;
-    padding: 15px;
+    margin: 1vh 5vh;
   }
 
 
   .skillsTitle {
-    font-size: 1.1rem;
-    color: #ccc5b9;
-
-    font-family: SCP-BoldItalic;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    padding: 1vh 5vw;
+    font-family: SCP-Bold;
+    font-style: italic;
     letter-spacing: 1px;
   }
 
   .skillsLayout {
-
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 0px;
-    margin: 5px 0px 5px 0px;
-    padding: 0px;
+    justify-content: space-around;
+    text-align: center;
   }
   .skillsBox {
-    margin: 10px 0;
-    text-align: center;
-    padding: 10px;
+    padding: 2vh 1vw;
   }
 
   .skillsBox img{
-    height: 45px;
-    width: 45px;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
   }
 
   .skillsBox p {
-    color: #ccc5b9;
-    font-size: 14px;
-
-    font-family: SCP-Bold;
+    font-size: clamp(14px, 1vw, 1rem);
+    font-family: SCP-regular;
+    
   }
 
-  .projPage {
-    margin: 0px 10px 20px;
-  }
+/* THIRDPAGE */
 
-  .thirdPage {
-    padding: 0 0 80px 0;
-  }
+.thirdPage {
+  padding: 4vh 0;
+}
 
   .projPage h3 {
-    font-size: 1.2rem;
-    color: #ccc5b9;
-
-    font-family: SCP-Medium;
+    padding: 0vh 3vw 3vh 3vw;
+    font-size: clamp(1.4rem, 2vw, 4rem);
+    font-family: SCP-bold;
     letter-spacing: 1px;
   }
 
+  .projLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .projTab {
-    margin: 20px 10px;
-    padding: 10px;
+    margin: 2vh 1vmin;
+    padding: 2vh 0vw;
     justify-content: center;
-    
-
-    /* width: 400px;
-    height: 300px; */
-
     border: solid #ed6f3f 1px;
-
     transition: var(--transition-duration);
+    height: auto;
+    width: 300px;
 
   }
 
@@ -284,46 +146,43 @@ body {
 
   }
 
-
   .projTitle img {
     border: #ed6f3f solid 1px;
     height: 150px;
     width: 280px;
   }
-  
-  .projTitle h5 {
-    color: #ccc5b9;
-    font-size: 1rem;
-
-    font-family: SCP-BoldItalic;
-    letter-spacing: 1px;
-  }
-
-  .projTitle p {
-    color: #ccc5b9;
-    font-size: 0.8rem;
-
-    font-family: SCP-Medium;
-    letter-spacing: 1px;
-  }
 
   .projText {
-    padding: 5px 0;
+    padding: 2vh 0;
+    text-align: center;
+    justify-content: center;
+  }
 
+  .projText h5, p {
+    text-align: center;
+  }
+
+  .projText h5 {
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    font-family: SCP-bold;
+    letter-spacing: 1px;
+  }
+
+  .projText p {
+    font-style: italic;
+    font-family: SCP-regular;
   }
 
   .projLinks {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 16px;
   }
 
   .projLinks a {
     text-decoration: none;
-    color: #ccc5b9;
 
-    font-family: SCP-Bold;
+    font-family: SCP-semiBold;
     letter-spacing: 1px;
     font-size: 0.8rem;
 
@@ -331,29 +190,40 @@ body {
 
   }
 
+/* SECBRIDGEPAGE */
 
-  .fifthPage {
-    margin: 50px 10px 20px;
+  .linkText {
+    font-family: SCP-extraBold;
+    font-size: clamp(1rem, 2vw, 2rem);
+    text-align: center;
+  }
 
-    border-top: #ed6f3f solid 1px;
+  .linkCv {
+    padding: 4vh 0 2vh 0;
+    text-align: center;
+  }
+
+  .divCv {
+    text-decoration: none;
+    font-family: SCP-regular;
+    font-style: italic;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    transition: 0.3s;
+  }
+
+/* FOURTHPAGE */
+  .fourthPage {
+
   }
 
   .qouteText {
     font-style: italic;
   }
 
-  .fifthPage p {
-    margin: 10px;
-    color: #ccc5b9;
+  .lastPage p {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem);
 
     font-family: SCP-Regular;
     letter-spacing: 1px;
   }
-
-
-
-
-
-  
