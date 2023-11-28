@@ -12,7 +12,7 @@
     border: #ed6f3f solid 1px;
     border-radius: 5%;
     height: auto;
-    width: clamp(180px, 25%, 25%);
+    width: clamp(180px, 25%, 20%);
     max-width: 100%;
   }
   
@@ -36,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 2vh 0vw;
   }
 
 /* BRIDGEPAGE */
@@ -45,17 +46,17 @@
 }
 
 .introMe h6 {
-  font-size: clamp(1.2rem, 2vw, 3rem);
+  font-size: clamp(1.4rem, 1.6vw, 2rem);
   letter-spacing: 1px;
 }
 
 .introMe p {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(0.9rem, 1.5vw, 1.8rem);
   font-style: italic;
 }
 
 .introMe h6, p {
-  padding: 0vh 5vw 2vh 5vw;
+  padding: 0vh 2vw 2vh 2vw;
   font-family: SCP-regular;
   text-align: right;
 }
@@ -65,7 +66,7 @@
   padding: 4vh 0;
 }
   .skillsPage h3 {
-    padding: 0vh 3vw 3vh 3vw;
+    padding: 0vh 2vw 3vh 2vw;
     font-size: clamp(1.4rem, 1.6vw, 2rem);
     font-family: SCP-bold;
     letter-spacing: 1px;
@@ -75,11 +76,11 @@
     border: #ed6f3f solid 1px;
     display: flex;
     flex-flow: column nowrap;
-    margin: 1vh 5vh;
+    margin: 1vh 2vw;
   }
 
 
-  .skillsTitle {
+  .skillsTitle h4 {
     font-size: clamp(1rem, 1.5vw, 1.5rem);
     padding: 1vh 5vw;
     font-family: SCP-Bold;
@@ -100,12 +101,12 @@
   .skillsBox img{
     height: auto;
     width: auto;
-    max-height: 50px;
+    max-height: auto;
     max-width: 50px;
   }
 
   .skillsBox p {
-    font-size: clamp(14px, 1vw, 1rem);
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
     font-family: SCP-regular;
     
   }
@@ -118,7 +119,7 @@
 
   .projPage h3 {
     padding: 0vh 3vw 3vh 3vw;
-    font-size: clamp(1.4rem, 2vw, 4rem);
+    font-size: clamp(1.4rem, 1.6vw, 2rem);
     font-family: SCP-bold;
     letter-spacing: 1px;
   }
@@ -130,13 +131,18 @@
   }
 
   .projTab {
-    margin: 2vh 1vmin;
-    padding: 2vh 0vw;
+    margin: 2vh 1vw;
+    padding: 2vh 2vw;
     justify-content: center;
     border: solid #ed6f3f 1px;
     transition: var(--transition-duration);
     height: auto;
-    width: 300px;
+    width: auto;
+
+    max-height: 720px;
+    max-width: 480px;
+
+    
 
   }
 
@@ -148,14 +154,13 @@
 
   .projTitle img {
     border: #ed6f3f solid 1px;
-    height: 150px;
+    height: 120px;
     width: 280px;
   }
 
   .projText {
     padding: 2vh 0;
     text-align: center;
-    justify-content: center;
   }
 
   .projText h5, p {
@@ -163,12 +168,13 @@
   }
 
   .projText h5 {
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.5rem);
     font-family: SCP-bold;
     letter-spacing: 1px;
   }
 
   .projText p {
+    font-size: clamp(1rem, 1vw, 1.1rem);
     font-style: italic;
     font-family: SCP-regular;
   }
@@ -184,7 +190,7 @@
 
     font-family: SCP-semiBold;
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
 
     transition: var(--transition-duration);
 
@@ -207,7 +213,7 @@
     text-decoration: none;
     font-family: SCP-regular;
     font-style: italic;
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
     transition: 0.3s;
   }
 

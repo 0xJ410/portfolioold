@@ -8,7 +8,7 @@
     }
 
     .introMe {
-        padding: 10vh 15vw;
+        padding: 5vh 15vw;
       }
 
 
@@ -17,9 +17,13 @@
         padding: 2vh 10%;
     }
 
+    .projTab {
+        padding: 2vh 2vw;
+    }
+
 
     .projLayout {
-        padding: 2vh 5vh;
+        padding: 2vh 0vw;
     }
 
 
