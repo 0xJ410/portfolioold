@@ -10,9 +10,15 @@
     }
     
 
+    
+    .linkSoc:hover {
+        transform: rotate(0deg);
+        transform: scale(1.4);
+        transition: 0.5s;
+    }
 
     .projTab:hover {
-        background-color: #32312e;
+        /* background-color: #32312e; */
         transform: scale(1.1);
         /* transition: var(--transition-duration); */
     }
