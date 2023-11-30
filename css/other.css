@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 html::-webkit-scrollbar {
   display: none;
 }
@@ -30,6 +29,35 @@ body {
 }
 
 
+.custom-shape-divider-top-1700995111 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1700995111 svg {
+  position: relative;
+  display: block;
+  width: calc(120% + 1.3px);
+  height: 152px;
+}
+
+.custom-shape-divider-top-1700995111 .shape-fill {
+  fill: #ED6F3F;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1700995111 svg {
+      width: calc(140% + 1.3px);
+      height: 147px;
+  }
+}
+
+
 
 .color2F {
   color: #ed6f3f;
@@ -47,7 +75,7 @@ a {
 
 #icoSize {
   height: auto;
-  width: clamp(40px, 40px, 60px);
+  width: 35px;
   border: none;
   
   
@@ -60,10 +88,6 @@ a {
   display: inline-block;
 
 }
-
-
-
-
 
 .firstPage {
   height: 99vh;
@@ -87,7 +111,15 @@ a {
   border: #ed6f3f 4px dashed;
   border-left: 0;
   border-right: 0;
-  
+  animation: dashed-border 2s infinite;
+}
+
+
+.secondPage {
+  border: #ed6f3f 4px dashed;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
 .secBridgePage{
@@ -95,8 +127,6 @@ a {
   border-left: 0;
   border-right: 0;
 }
-
-
 
 .fourthPage {
   height: auto;
@@ -147,4 +177,21 @@ a {
 }
 
 
+.linkSoc:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  transition: 0.5s;
+}
 
+.projLinks a:hover{
+  transform: scale(1.1);
+}
+
+.hoverLetter:hover {
+  background-color: #ed6f3f;
+}
+
+.divCv:hover {
+  letter-spacing: 5px;
+  transition: 0.5s;
+}

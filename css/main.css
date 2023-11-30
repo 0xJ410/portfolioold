@@ -1,0 +1,246 @@
+/* FIRSTPAGE */
+  .me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 22vh 5vw;
+    gap: 1rem;
+  }
+
+  .me img {
+    border: #ed6f3f solid 1px;
+    border-radius: 5%;
+    /* width: clamp(200px, 30vw, 400px);
+    max-width: 100%;
+    height: auto; */
+    max-width:100%;
+    height:220px;
+    display:inline-block;
+    
+  }
+
+
+  .meText h1 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    text-transform: uppercase;
+    font-family: SCP-Bold;
+    letter-spacing: 2px;
+    padding: 2vh 0 0 0;
+  }
+
+  .meText h2 {
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-family: SCP-Light;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 0.5vh 0 0.5vh 0;
+  }
+
+  .linksSocial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vh 0vw;
+  }
+
+/* BRIDGEPAGE */
+
+.introMe {
+  padding: 5vh 15vw;
+}
+
+.introMe h6 {
+  font-size: clamp(1.4rem, 1.6vw, 2rem);
+  letter-spacing: 1px;
+}
+
+.introMe p {
+  font-size: clamp(0.9rem, 1.5vw, 1.8rem);
+  font-style: italic;
+}
+
+.introMe h6, p {
+  padding: 1vh 1vw;
+  font-family: SCP-regular;
+  text-align: right;
+}
+
+/* SECONDPAGE */
+.skillsPage {
+  padding: 4vh 8%;
+}
+  .skillsPage h3 {
+    padding: 2vh 0vw;
+    font-size: clamp(1.2rem, 1.5rem, 2rem);
+    font-family: SCP-bold;
+    letter-spacing: 1px;
+  }
+
+  .skillsTab {
+    border: #ed6f3f solid 1px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1vh 0vw;
+    padding: 1vh 1vw;
+  }
+
+
+  .skillsTitle h4 {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    padding: 0vh 5%;
+    font-family: SCP-Bold;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+
+  .skillsLayout {
+    margin: 1vh 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+  
+    text-align: center;
+  }
+  .skillsBox {
+    margin: 0vh 0;
+    width: auto;
+    height: 100%;
+    max-height: 120px;
+
+  }
+
+  .skillsBox img{
+    height: auto;
+    width: auto;
+    max-height: auto;
+    max-width: 40px;
+  }
+
+  .skillsBox p {
+    font-size: clamp(1rem, 1vw, 1.4rem);
+    font-family: SCP-regular;
+    
+  }
+
+/* THIRDPAGE */
+
+.projPage {
+  padding: 4vh 5%;
+}
+
+  .projPage h3 {
+    padding: 1vh 0;
+    font-size: clamp(1.5rem, 1vw, 2rem);
+    font-family: SCP-bold;
+    letter-spacing: 1px;
+  }
+
+  .projLayout {
+    padding: 2vh 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .projTab {
+    padding: 1vh 1vw;
+    justify-content: center;
+    transition: var(--transition-duration);
+    height: auto;
+    width: auto;
+
+    max-height: 720px;
+    max-width: 480px;
+
+    
+
+  }
+
+  .projTitle{
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .projTitle img {
+    border: #ed6f3f solid 1px;
+    height: 120px;
+    width: 250px;
+  }
+
+  .projText {
+    padding: 0vh 0;
+    text-align: center;
+  }
+
+  .projText h5, p {
+    text-align: center;
+  }
+
+  .projText h5 {
+    padding: 1vh 1vw;
+    font-size: clamp(1.2rem, 1.2vw, 1.5rem);
+    font-family: SCP-bold;
+    letter-spacing: 1px;
+  }
+
+  .projText p {
+    padding: 1vh 1vw;
+    font-size: clamp(1rem, 1vw, 1.1rem);
+    font-style: italic;
+    font-family: SCP-regular;
+  }
+
+  .projLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .projLinks a {
+    text-decoration: none;
+    padding: 1vh 0;
+    font-family: SCP-semiBold;
+    letter-spacing: 1px;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+
+    transition: var(--transition-duration);
+
+  }
+
+/* SECBRIDGEPAGE */
+
+  .linkText h5 {
+    font-family: SCP-extraBold;
+    font-size: clamp(1rem, 2vw, 2rem);
+    text-align: center;
+    padding: 1vh 1vw;
+  }
+
+  .linkCv {
+    padding: 2vh 0;
+    text-align: center;
+  }
+
+  .divCv {
+    text-decoration: none;
+    font-family: SCP-regular;
+    font-style: italic;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    transition: 0.3s;
+  }
+
+/* FOURTHPAGE */
+  .qouteText {
+    font-style: italic;
+    padding: 0 5%;
+  }
+
+  .lastPage p {
+    text-align: center;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+
+    font-family: SCP-Regular;
+    letter-spacing: 1px;
+  }
