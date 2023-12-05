@@ -1,4 +1,4 @@
-@media screen and (min-width: 1367px) {
+@media (min-width: 320px)  and (max-width: 1366px) {
 
   .me {
     margin: 22vh 5vh;
@@ -6,124 +6,110 @@
 
   .me img {
     max-width:100%;
-    height:380px;
+    height:240px;
   }
 
   .me h1 {
-    font-size: 4rem;
+    font-size: 1.2rem;
+font-size: clamp(1.2rem, 0.9575757575757575rem + 1.2121212121212124vw, 2rem);
+
   }
 
   .me h2 {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7393939393939395rem + 0.303030303030303vw, 1rem);
   }
 
 
   #icoSize {
-    width: 60px !important;
+    width: 40px !important;
   }
 
   .introMe h6 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.1090909090909091rem + 0.4545454545454546vw, 1.5rem);
   }
 
   .introMe p {
-    font-size: 2rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9393939393939394rem + 0.303030303030303vw, 1.2rem);
   }
 
+
+
   .skillsPage h3 {
-    font-size: 2.4rem;
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.1090909090909091rem + 0.4545454545454546vw, 1.5rem);
   }
 
   .skillsTitle h4 {
-    font-size: 2rem;
+    font-size: 1.1rem;
+    font-size: clamp(1.1rem, 1.0393939393939395rem + 0.303030303030303vw, 1.3rem);
   }
 
   .skillsBox p {
-    font-size: 1.6rem;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7696969696969698rem + 0.1515151515151515vw, 0.9rem);
   }
 
   .projPage h3 {
-    font-size: 2.4rem;
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.1090909090909091rem + 0.4545454545454546vw, 1.5rem);
   }
 
   .projText h5 {
-    font-size: 2rem;
+    font-size: 1.1rem;
+    font-size: clamp(1.1rem, 1.0393939393939395rem + 0.303030303030303vw, 1.3rem);
   }
 
   .projPage p {
-    font-size: 1.8rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9696969696969697rem + 0.15151515151515166vw, 1.1rem);
   }
 
   .projLinks a {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8696969696969697rem + 0.1515151515151515vw, 1rem);
   }
 
+
+
   .linkText h5 {
-    font-size: 2.5rem;
+  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 1.1090909090909091rem + 0.4545454545454546vw, 1.5rem);
   }
 
   .divCv {
-    font-size: 1.8rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9696969696969697rem + 0.15151515151515166vw, 1.1rem);
   }
 
   .lastPage p {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.7393939393939395rem + 0.303030303030303vw, 1rem);
   }
 
 }
 
 
-@media (min-width: 491px) and (max-width: 1270px) {
+@media (min-width: 491px) and (max-width: 900px) {
 
     .me img {
       max-width:100%;
       height:180px;
     }
+
 }
 
-
 @media only screen and (max-width: 490px) {
-  
-  .me {
-      margin: 25vh 5vw;
-  }
 
   .me img {
       max-width:100%;
       height:180px;
     }
 
-  .me h1 {
-    font-size: 1.4rem;
-  }
-  
     #icoSize {
       width: 35px !important;
     }
 
-  .introMe {
-      padding: 2vh 10vw;
-    }
-
-
-  .skillsTitle h4 {
-    font-size: 1rem;
-  }
-
-  .skillsBox p{
-    font-size: 1rem;
-  }
-
-
-  .projTab {
-      padding: 1vh 1vw;
-  }
-
-
-  .projLayout {
-      padding: 2vh 0vw;
-  }
-
-
-  
 }

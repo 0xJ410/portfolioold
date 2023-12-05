@@ -10,9 +10,6 @@
   .me img {
     border: #ed6f3f solid 1px;
     border-radius: 5%;
-    /* width: clamp(200px, 30vw, 400px);
-    max-width: 100%;
-    height: auto; */
     max-width:100%;
     height:220px;
     display:inline-block;
@@ -95,10 +92,14 @@
 
   .skillsLayout {
     margin: 1vh 5%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items:center;
+    align-items:center; */
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row dense;
+    gap: 1rem;
   
     text-align: center;
   }
@@ -141,6 +142,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
   }
 
   .projTab {
