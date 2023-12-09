@@ -1,79 +1,19 @@
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
+.d1-5s {
+	animation-delay: 1.5s;
 }
 
-
-@keyframes fadeInRight {
-	0% {
-		opacity: 0;
-		transform: translateX(50px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+.d1-8s {
+	animation-delay: 1.8s;
 }
 
-
-@keyframes wobbleAnim {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
-
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
-
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
-
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
-
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
-
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
+.d2-2s {
+	animation-delay: 2.2s;
 }
 
-@keyframes vibrateAnim {
-	0%,
-	100% {
-		transform: translateX(0);
-	}
+.d2-4s {
+	animation-delay: 2.4s;
+}
 
-	10%,
-	30%,
-	50%,
-	70% {
-		transform: translateX(-10px);
-	}
-
-	20%,
-	40%,
-	60% {
-		transform: translateX(10px);
-	}
-
-	80% {
-		transform: translateX(8px);
-	}
-
-	90% {
-		transform: translateX(-8px);
-	}
+.d2-6s {
+	animation-delay: 2.6s;
 }

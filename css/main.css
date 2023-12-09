@@ -18,7 +18,8 @@
 
 
   .meText h1 {
-    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
     text-transform: uppercase;
     font-family: SCP-Bold;
     letter-spacing: 2px;
@@ -26,7 +27,8 @@
   }
 
   .meText h2 {
-    font-size: clamp(1rem, 1vw, 2rem);
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
     font-family: SCP-Light;
     font-style: italic;
     letter-spacing: 1px;
@@ -38,6 +40,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 2vh 0vw;
+    width: auto;
+    height: auto;
   }
 
 /* BRIDGEPAGE */

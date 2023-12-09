@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1367px) {
+  .me img {
+    height: 400px;
+  }
+}
+
+
+
 @media (min-width: 320px)  and (max-width: 1366px) {
 
   .me {
