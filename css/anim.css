@@ -17,3 +17,19 @@
 .d2-6s {
 	animation-delay: 2.6s;
 }
+
+.animLeftToRight {
+	animation: example;
+	animation-delay: 2s;
+  }
+  
+  @keyframes example {
+	0%,
+	100% {
+	  left: 0;
+	}
+  
+	50% {
+	  left: 200px;
+	}
+  }
