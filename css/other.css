@@ -28,49 +28,67 @@ body {
   --transition-timing-function: ease;
 }
 
-
-.custom-shape-divider-top-1702118840 {
+.custom-shape-divider-top-1702188849 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-
 }
 
-
-
-.custom-shape-divider-top-1702118840 svg {
+.custom-shape-divider-top-1702188849 svg {
   position: relative;
   display: block;
-  width: calc(165% + 1.3px);
-  height: 204px;
+  width: calc(196% + 1.3px);
+  height: 169px;
+  transform: rotateY(180deg);
 }
 
 
-
-.custom-shape-divider-top-1702118840 .shape-fill {
-  fill: #ed6f3f;
+.custom-shape-divider-top-1702188849 .shape-fill {
+  fill: #ED6F3F;
 }
 
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-top-1702118840 svg {
-      width: calc(165% + 1.3px);
-      height: 248px;
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1702188849 svg {
+      width: calc(130% + 1.3px);
+      height: 133px;
   }
+}
+
+
+
+.custom-shape-divider-top-1702185533 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  opacity: 0.7;
+}
+
+.custom-shape-divider-top-1702185533 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 197px;
+}
+
+.custom-shape-divider-top-1702185533 .shape-fill {
+  fill: #ED6F3F;
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-  .custom-shape-divider-top-1702118840 svg {
-      width: calc(300% + 1.3px);
-      height: 155px;
+  .custom-shape-divider-top-1702185533 svg {
+      width: calc(105% + 1.3px);
+      height: 110px;
   }
 }
-
-
 
 
 
@@ -123,10 +141,6 @@ a {
   padding: 2vh 0;
 }
 
-.firstPage {
-  background-image: url('/img/haikei.svg');
-  background-size: cover;
-}
 
 
 .bridgePage {
