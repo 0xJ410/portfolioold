@@ -160,57 +160,116 @@
 
   }
 
-  .projTitle{
-    justify-content: center;
-    text-align: center;
-
-  }
-
-  .projTitle img {
-    border: #ed6f3f solid 1px;
-    height: 120px;
-    width: 250px;
-  }
-
   .projText {
     padding: 0vh 0;
     text-align: center;
   }
 
-  .projText h5, p {
-    text-align: center;
-  }
+  .bannerOutCont {
+    margin: 2vh;
+}
 
-  .projText h5 {
-    padding: 1vh 1vw;
-    font-size: clamp(1.2rem, 1.2vw, 1.5rem);
-    font-family: SCP-bold;
-    letter-spacing: 1px;
-  }
+    .bannerOutCont img {
+        height: 200px;
+        width: 340px;
+        object-fit: cover;
+        object-position: 50% 50%;
 
-  .projText p {
-    padding: 1vh 1vw;
-    font-size: clamp(1rem, 1vw, 1.1rem);
-    font-style: italic;
-    font-family: SCP-regular;
-  }
+    }
 
-  .projLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+    #imgBanner {
+        border: #ED6F3F 1px solid;
+    }
 
-  .projLinks a {
-    text-decoration: none;
-    padding: 1vh 0;
-    font-family: SCP-semiBold;
-    letter-spacing: 1px;
-    font-size: clamp(0.8rem, 1.2vw, 1rem);
+    .bannerOverlay {
+        text-align: center;
+        padding: 2vh 0 0 0
+    }
 
-    transition: var(--transition-duration);
+    .projText {
+        margin: 2vh 0 0 0; 
+    }
 
-  }
+        .projText h5 {
+            font-family: SCP-regular;
+            font-size: 1.2rem !important;
+            letter-spacing: 2px;
+        }
+
+                
+        .projText h5, p {
+            text-align: center;
+        }
+
+        .descCode {
+            font-family: SCP-regular;
+            font-size: 1rem !important;
+            font-style: italic;
+
+        }
+
+        .yearProj {
+            font-family: SCP-regular;
+            font-style: italic;
+            font-size: 1rem !important;
+
+        }
+
+        .projLinks {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .projLinks a {
+            text-decoration: none;
+            font-family: SCP-semiBold;
+            letter-spacing: 1px;
+            margin: 4vh 0 0 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+.bannerInCont { 
+    position: relative; 
+    } 
+    
+    .bannerOverlay { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: #151413;
+    background: linear-gradient(180deg, #151413 80%, rgba(237,111,63,1) 100%);
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+    pointer-events: none; 
+    } 
+
+
+    
+    .bannerInCont:hover .bannerOverlay { 
+    opacity: 1; 
+    backdrop-filter: blur(2px);
+    backdrop-filter: grayscale(100%);
+    pointer-events: auto;
+    transition: 1s;
+    } 
+    
+
+
+
+
 
 /* SECBRIDGEPAGE */
 
