@@ -44,3 +44,12 @@
 	  left: 200px;
 	}
   }
+
+  @keyframes blur-in {
+	from {
+	  backdrop-filter: blur(0px);
+	}
+	to {
+	  backdrop-filter: blur(2px);
+	}
+  }
