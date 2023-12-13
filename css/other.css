@@ -13,6 +13,11 @@
 }
 
 
+.descProj::-webkit-scrollbar {
+  width: 5px;
+}
+
+
 ::-webkit-scrollbar-thumb {
   background: #c94512;
 }
@@ -21,6 +26,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #ED6F3F;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #ED6F3F inset !important;
+}
+
 
 
 body {
@@ -217,7 +230,7 @@ a {
 #pngIcon20 {
   height: auto;
   width: 20px;
-  vertical-align: middle;
+  margin: 2rem;
 }
 
 #userIcon {

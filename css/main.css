@@ -134,8 +134,9 @@
 }
 
   .projPage h3 {
-    padding: 1vh 0 5vh 0;
-    font-size: clamp(1.5rem, 1vw, 2rem);
+    padding: 4vh 0;
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.6799999999999999rem + 1.1vw, 2rem);
     font-family: SCP-bold;
     letter-spacing: 1px;
   }
@@ -149,9 +150,8 @@
   }
 
   .projTab {
-    padding: 1vh 1vw;
+    padding: 1vh 0vw;
     justify-content: center;
-    transition: var(--transition-duration);
     height: auto;
     width: auto;
 
@@ -185,11 +185,23 @@
 
     .bannerOverlay {
         text-align: center;
-        padding: 0vh 1vh;
+        padding: 0vh 1vw;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
 
+    }
+
+    .descProj {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: auto;
+      margin: 2vh 0;
+
+    }
+
+    .descProj p {
     }
 
     .projText {
@@ -198,8 +210,8 @@
 
         .projText h5 {
             font-family: SCP-regular;
-            font-size: 1.2rem;
-            font-size: clamp(1.2rem, 1.14rem + 0.30000000000000004vw, 1.5rem);
+            font-size: 1rem;
+            font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
             letter-spacing: 2px;
         }
 
@@ -209,22 +221,21 @@
         }
 
         .qMarkProj {
-          margin: 0 0 4vh 0;
+          margin: 0 0 0vh 0;
         }
 
         .descCode {
             font-family: SCP-regular;
-            font-size: 1rem;
-            font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
+            font-size: 0.8rem;
+            font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
             font-style: italic;
-
         }
 
         .yearProj {
             font-family: SCP-regular;
             font-style: italic;
-            font-size: 1rem;
-            font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
+            font-size: 0.8rem;
+            font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
 
         }
 
@@ -297,15 +308,9 @@
     text-decoration: none;
     font-family: SCP-regular;
     font-style: italic;
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    font-size: clamp(0.8rem, 0.7200000000000001rem + 0.3999999999999999vw, 1.2rem);
     transition: 0.3s;
   }
-
-
-
-
-
-
 
 
   .contactContOuter {
@@ -313,6 +318,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.contactContInner1 {
+  width: 450px;
 }
 
 .contactContInner2 {

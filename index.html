@@ -12,16 +12,9 @@
     <link href="css/anim.css" rel="stylesheet" type="text/css" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
     <link href="css/experiments.css" rel="stylesheet" type="text/css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
 
 </head>
 
@@ -254,7 +247,7 @@
 
                   <div class="descProj">
                     <img class="qMarkProj" id="pngIcon20" src="/img/icons/qmark.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nam facere nostrum ut iusto ad possimus repellendus explicabo incidunt.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis nam facere nostrum ut iusto ad possimus repellendus explicabo incidunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore expedita impedit ratione fugiat cupiditate error nulla numquam, sapiente officiis optio. Ex ratione dolores quaerat quod! Aliquid totam velit ad, corrupti vitae earum assumenda cum dolore qui enim ullam saepe quia aspernatur quae numquam autem ipsum, reiciendis illo possimus? Aperiam, quibusdam?</p>
                   </div>
 
 
@@ -478,18 +471,24 @@
 
             <div class="contactMeCont">
 
-              <form method="post" enctype="text/plain" onsubmit="emailSend(); reset(); return false">
+              <form id="submit" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="612f0abc-d07f-4fdd-9136-502116932ee3">
 
 
-                <input class="fName textArea wFont" type="text" id="name" name="firstname" placeholder="Your name...">
+                <input class="fName textArea wFont" type="text" id="name" name="name" placeholder="Your name..." required>
 
-                <input class="email emailArea wFont" type="email" id="email" name="firstname" placeholder="Your email...">
+                <input class="email emailArea wFont" type="email" id="email" name="email" placeholder="Your email..." required>
 
-                <input class="sName subjectName wFont" type="text" id="subject" name="lastname" placeholder="Subject...">
+                <input class="sName subjectName wFont" type="text" id="_subject" name="subject" placeholder="Subject..." required>
 
-                <textarea class="messageBox messageArea wFont"  id="message" name="subject" placeholder="Write something..."></textarea>
+                <textarea class="messageBox messageArea wFont"  id="message" name="message" placeholder="Write something..." required></textarea>
+
+                <div class="h-captcha" data-captcha="true"></div>
             
-                <input class="submitButton wFont" type="submit" value="Submit">
+                <input class="submitButton wFont" type="submit" value="Send" id="submit">
+
+                <input type="hidden" name="from_name" value="New Portfolio Message.">
 
               </form>
             </div>
@@ -520,8 +519,6 @@
     <script src="js/anim.js"></script>
     <script src="js/intersectAPI.js"></script>
     <script defer src="/_vercel/insights/script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
+    <script src="https://web3forms.com/client/script.js" async defer></script>
   </body>
 </html>
