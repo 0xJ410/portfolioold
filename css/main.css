@@ -201,8 +201,6 @@
 
     }
 
-    .descProj p {
-    }
 
     .projText {
         margin: 2vh 0 0 0; 
@@ -280,7 +278,7 @@
     opacity: 1; 
     pointer-events: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    backdrop-filter: blur(5px) grayscale(80%);
+    backdrop-filter: blur(5px);
     transition: 1s;
 
     }
@@ -440,8 +438,8 @@
 
   .lastPage p {
     text-align: center;
-    font-size: clamp(0.8rem, 1vw, 2rem);
-
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.66rem + 0.7vw, 1.5rem);
     font-family: SCP-Regular;
     letter-spacing: 1px;
   }
