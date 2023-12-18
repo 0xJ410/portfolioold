@@ -1,0 +1,49 @@
+body {
+    background-color: #181716;
+    height: 100vh;
+    border: #ed6f3f 5px dashed;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+
+.inCont {
+    padding: 25vh 0 0vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inCont h3 {
+    font-family: SCP-bold;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
+    text-align: center;
+}
+.inCont p {
+    font-family: SCP-Regular;
+    text-align: center;
+    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 0.66rem + 0.7vw, 1.5rem);
+}
+
+.inCont img{
+    margin: auto;
+    padding: 10px 0;
+    
+}
+
+.linkGoBack {
+    display: flex;
+    justify-content: center;
+    font-family: SCP-regular;
+}
+
+.linkGoBack a {
+    color: #ed6f3f;
+    text-underline-offset: 2px;
+}
+
+

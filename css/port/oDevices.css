@@ -2,6 +2,10 @@
   .me img {
     height: 400px;
   }
+
+  .secBridgePage {
+    padding: 10vh 0 !important;
+  }
 }
 
 
@@ -119,5 +123,14 @@ font-size: clamp(1.2rem, 0.9575757575757575rem + 1.2121212121212124vw, 2rem);
     #icoSize {
       width: 35px !important;
     }
+
+    .projLayout {
+      flex-flow: wrap-reverse;
+    }
+
+    .bannerOutCont {
+      margin: 5vh 0;
+    }
+
 
 }

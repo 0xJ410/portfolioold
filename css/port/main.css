@@ -57,7 +57,6 @@
 
 .introMe p {
   font-size: clamp(0.9rem, 1.5vw, 1.8rem);
-  font-style: italic;
 }
 
 .introMe h6, p {
@@ -68,17 +67,18 @@
 
 /* SECONDPAGE */
 .skillsPage {
-  padding: 4vh 8%;
+  padding: 5vh 8%;
 }
   .skillsPage h3 {
-    padding: 2vh 0vw;
-    font-size: clamp(1.2rem, 1.5rem, 2rem);
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.6799999999999999rem + 1.1vw, 2rem);
     font-family: SCP-bold;
     letter-spacing: 1px;
   }
 
   .skillsTab {
     border: #ed6f3f solid 1px;
+    border-radius: 10px;
     display: flex;
     flex-flow: column nowrap;
     margin: 1vh 0vw;
@@ -87,9 +87,10 @@
 
 
   .skillsTitle h4 {
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: 0.8rem !important;
+    font-size: clamp(0.8rem, 0.7200000000000001rem + 0.3999999999999999vw, 1.2rem) !important;
     padding: 0vh 5%;
-    font-family: SCP-Bold;
+    font-family: SCP-regular;
     font-style: italic;
     letter-spacing: 1px;
   }
@@ -130,7 +131,7 @@
 /* THIRDPAGE */
 
 .projPage {
-  padding: 4vh 5%;
+  padding: 4vh 8%;
 }
 
   .projPage h3 {
@@ -142,10 +143,10 @@
   }
 
   .projLayout {
-    padding: 2vh 2vw;
+    padding: 2vh 1vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
   }
 
@@ -163,12 +164,11 @@
   }
 
   .projText {
-    padding: 0vh 0;
     text-align: center;
   }
 
   .bannerOutCont {
-    margin: 2vh;
+    margin: 2vh 0;
 }
 
     .bannerOutCont img {
@@ -269,7 +269,7 @@
     opacity: 0;
     /* transition: opacity 0s ease-in-out;  */
     pointer-events: none;
-    transition: 1s; 
+    transition: 0.5s; 
     } 
 
 
@@ -279,7 +279,7 @@
     pointer-events: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     backdrop-filter: blur(5px);
-    transition: 1s;
+    transition: 0.5s;
 
     }
 
