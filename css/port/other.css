@@ -186,7 +186,7 @@ a {
 
 
 .bridgePage {
-  border: #181716 4px dashed;
+  border: #181716 6px dashed;
   border-left: 0;
   border-right: 0;
   animation: dashed-border 2s infinite;
@@ -195,7 +195,7 @@ a {
 
 
 .secondPage {
-  border: #ed6f3f 4px dashed;
+  border: #ed6f3f 6px dashed;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -206,7 +206,7 @@ a {
 
 
 .secBridgePage{
-  border: #ed6f3f 4px dashed;
+  border: #ed6f3f 6px dashed;
   border-left: 0;
   border-right: 0;
 }
