@@ -10,8 +10,9 @@
   .me img {
     border: #ed6f3f solid 1px;
     border-radius: 5%;
-    max-width:100%;
+    width:250px;
     height:220px;
+    object-fit: cover;
     display:inline-block;
     
   }
@@ -21,7 +22,7 @@
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
     text-transform: uppercase;
-    font-family: SCP-Bold;
+    font-family: fbold;
     letter-spacing: 2px;
     padding: 2vh 0 0 0;
   }
@@ -29,9 +30,9 @@
   .meText h2 {
     font-size: 1rem;
     font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
-    font-family: SCP-Light;
+    font-family: fregular;
     font-style: italic;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 0.5vh 0 0.5vh 0;
   }
 
@@ -61,18 +62,18 @@
 
 .introMe h6, p {
   padding: 1vh 1vw;
-  font-family: SCP-regular;
+  font-family: fregular;
   text-align: right;
 }
 
 /* SECONDPAGE */
 .skillsPage {
-  padding: 5vh 8%;
+  padding: 10vh 8%;
 }
   .skillsPage h3 {
     font-size: 0.9rem;
     font-size: clamp(0.9rem, 0.6799999999999999rem + 1.1vw, 2rem);
-    font-family: SCP-bold;
+    font-family: fbold;
     letter-spacing: 1px;
   }
 
@@ -90,7 +91,7 @@
     font-size: 0.8rem !important;
     font-size: clamp(0.8rem, 0.7200000000000001rem + 0.3999999999999999vw, 1.2rem) !important;
     padding: 0vh 5%;
-    font-family: SCP-regular;
+    font-family: fregular;
     font-style: italic;
     letter-spacing: 1px;
   }
@@ -124,25 +125,25 @@
 
   .skillsBox p {
     font-size: clamp(1rem, 1vw, 1.4rem);
-    font-family: SCP-regular;
+    font-family: fregular;
     
   }
 
 /* THIRDPAGE */
 
 .projPage {
-  padding: 4vh 8%;
+  padding: 10vh 8%;
 }
 
   .projPage h3 {
-    padding: 4vh 0;
     font-size: 0.9rem;
     font-size: clamp(0.9rem, 0.6799999999999999rem + 1.1vw, 2rem);
-    font-family: SCP-bold;
+    font-family: fbold;
     letter-spacing: 1px;
   }
 
   .projLayout {
+    border-radius: 25px;
     padding: 2vh 1vw;
     display: flex;
     flex-wrap: wrap;
@@ -172,15 +173,15 @@
 }
 
     .bannerOutCont img {
-        height: 200px;
-        width: 340px;
-        object-fit: cover;
-        object-position: 50% 50%;
+      height: 200px;
+      width: 340px;
+      object-fit: cover;
+      object-position: 50% 50%;
 
     }
 
     #imgBanner {
-        border: #ED6F3F 1px solid;
+      border-radius: 25px;
     }
 
     .bannerOverlay {
@@ -201,13 +202,17 @@
 
     }
 
+    .descProj::-webkit-scrollbar {
+      width: 3px !important;
+    }
+
 
     .projText {
         margin: 2vh 0 0 0; 
     }
 
         .projText h5 {
-            font-family: SCP-regular;
+            font-family: fbold;
             font-size: 1rem;
             font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
             letter-spacing: 2px;
@@ -219,18 +224,19 @@
         }
 
         .qMarkProj {
-          margin: 0 0 0vh 0;
+          margin: auto 0;
         }
 
+
         .descCode {
-            font-family: SCP-regular;
+            font-family: fregular;
             font-size: 0.8rem;
             font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
             font-style: italic;
         }
 
         .yearProj {
-            font-family: SCP-regular;
+            font-family: fregular;
             font-style: italic;
             font-size: 0.8rem;
             font-size: clamp(0.8rem, 0.76rem + 0.19999999999999996vw, 1rem);
@@ -244,10 +250,11 @@
         }
 
         .projLinks a {
+            color: #ed6f3f;
             text-decoration: none;
-            font-family: SCP-regular;
+            font-family: fregular;
             letter-spacing: 1px;
-            margin: 4vh 0;
+            margin: 3vh 0;
             transition: 0.5s;
         }
 
@@ -271,7 +278,8 @@
 
 
     
-    .bannerInCont:hover .bannerOverlay { 
+    .bannerInCont:hover .bannerOverlay {
+    border-radius: 25px;
     opacity: 1; 
     pointer-events: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -288,23 +296,32 @@
 /* SECBRIDGEPAGE */
 
   .linkText h5 {
-    font-family: SCP-bold;
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-family: fbold;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
     text-align: center;
     padding: 1vh 1vw;
   }
 
-  .linkCv {
-    padding: 2vh 0;
-    text-align: center;
-  }
-
-  .divCv {
+  .linkLast a {
+    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 0.8400000000000001rem + 0.29999999999999993vw, 1.2rem);
+    font-family: fregular;
     text-decoration: none;
-    font-family: SCP-regular;
-    font-style: italic;
-    font-size: clamp(0.8rem, 0.7200000000000001rem + 0.3999999999999999vw, 1.2rem);
-    transition: 0.3s;
+    color: #ccc5b9;
+    transition: 0.5s;
+  }
+  
+  .linkLast a:hover {
+    color: #ed6f3f;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .linkLast {
+    padding: 4vh 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
   }
 
 
@@ -316,6 +333,7 @@
 }
 
 .contactContInner1 {
+  padding: 40px 0;
   width: 450px;
 }
 
@@ -328,7 +346,7 @@
 
 
 .contactContInner2 h6 {
-    font-family: SCP-Regular;
+    font-family: fregular;
     font-size: 1.2rem;
     font-size: clamp(1.2rem, 1.16rem + 0.19999999999999996vw, 1.4rem);
     letter-spacing: 2px;
@@ -349,7 +367,7 @@
     .textArea, .emailArea, .subjectName {
         font-size: 1rem;
         font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
-        font-family: SCP-Regular;
+        font-family: fregular;
         margin: 5px 0;
         padding: 1vh 1vw;
         width: 100%;
@@ -370,7 +388,7 @@
     .messageArea {
         font-size: 1rem;
         font-size: clamp(1rem, 0.96rem + 0.19999999999999996vw, 1.2rem);
-        font-family: SCP-Regular;
+        font-family: fregular;
         margin: 1vh 0;
         padding: 2vh 0;
         width: 100%;
@@ -384,7 +402,7 @@
 
 
     .submitButton {
-        font-family: SCP-Bold;
+        font-family: fbold;
         font-size: 1.2rem;
         font-size: clamp(1.2rem, 1.16rem + 0.19999999999999996vw, 1.4rem);
         padding: 1vh 4vw;
@@ -428,15 +446,15 @@
 
 
 /* FOURTHPAGE */
-  .qouteText {
-    font-style: italic;
-    padding: 0 5%;
-  }
 
-  .lastPage p {
-    text-align: center;
-    font-size: 0.8rem;
-    font-size: clamp(0.8rem, 0.66rem + 0.7vw, 1.5rem);
-    font-family: SCP-Regular;
-    letter-spacing: 1px;
-  }
+.qouteText {
+  font-style: italic;
+  padding: 0 5%;
+}
+.lastPage p {
+  text-align: center;
+  font-size: 0.8rem;
+  font-size: clamp(0.8rem, 0.66rem + 0.7vw, 1.5rem);
+  font-family: fregular;
+  letter-spacing: 1px;
+}

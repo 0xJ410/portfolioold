@@ -1,17 +1,19 @@
 @font-face {
-    font-family: SCP-bold;
-    src: url('/fonts/static/SourceCodePro-Bold.ttf') format('truetype');
+    font-family: fbold;
+    src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
   }
 
 @font-face {
-    font-family: SCP-light;
-    src: url('/fonts/static/SourceCodePro-Light.ttf') format('truetype');
+    font-family: flight;
+    src: url('/fonts/SourceCodePro-Light.ttf') format('truetype');
   }
 
 @font-face {
-    font-family: SCP-regular;
-    src: url('/fonts/static/SourceCodePro-Regular.ttf') format('truetype');
+    font-family: fregular;
+    src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
   }
+
+
   
 
   
